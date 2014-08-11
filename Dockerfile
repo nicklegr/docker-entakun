@@ -11,4 +11,6 @@ WORKDIR entakun
 RUN gem install bundler --no-ri --no-rdoc
 RUN bundle install --without=test
 
-CMD bundle exec rackup
+EXPOSE 80
+
+CMD bundle exec rackup -p 80
