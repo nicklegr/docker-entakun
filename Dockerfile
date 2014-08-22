@@ -1,5 +1,8 @@
 FROM ubuntu
 
+RUN echo "Asia/Tokyo" > /etc/timezone
+RUN dpkg-reconfigure -f noninteractive tzdata
+
 RUN apt-get -y update
 RUN apt-get -y install git
 RUN apt-get -y install ruby1.9.3
