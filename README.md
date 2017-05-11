@@ -1,3 +1,8 @@
+# このリポジトリは非推奨です
+
+Dockerサポートは https://github.com/nicklegr/entakun に取り込まれました。
+こちらのリポジトリは非推奨です。
+
 # Quick Start
 
 ```
